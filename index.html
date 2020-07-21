@@ -1,13 +1,26 @@
 <html>
     <head>
         <script src="vue/vue.js"></script>
-        <script type="stylesheet" src="page/style.css"></script>
+        <link rel="stylesheet" type="text/css" href="page/styles/carousel.css">
+        <link rel="stylesheet" type="text/css" href="page/styles/style.css">
     </head>
     <body>
-        <div id="vue">
-            <div v-for="page in pages">
-                {{page.message}}
+        
+        <div id="vue" class="slider">
+            
+            <div class="slider__inner" :style="{left: '-' + selectedPageIndex + '00%', width: pagesCount() + '00%'}">
+                <div v-for="page in pages_config.pages" class="slider__contents">
+                    <h2 class="slider__caption">{{page.caption}}</h2>
+                    <p class="slider__txt">{{page.message}}</p>
+                </div>
             </div>
+            
+            <div v-for="(page, index) in pages_config.pages">
+                <div v-on:click="selectPage($event, index)" :class="{slider__nav_checked: index == selectedPageIndex}" class="slider__nav"></div>
+            </div>
+          </div>
+
+            
         </div>
         <script src="config.js"></script>
         <script src="page/main.js"></script>
