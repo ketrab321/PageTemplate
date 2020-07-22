@@ -1,20 +1,35 @@
 const config = {
     pages: [
         {
-            caption: "Co",
-            message: "Twoja",
-            icon: "icon-home"
-            
+            title: "Strona Główna",
+            message: "Tekst do tytułu 1",
+            icon: "icon-home",
+            theme: "green"
         },
         {
-            caption: "Jest?",
-            message: "XDD",
-            icon: "icon-help"
+            title: "Aktualności",
+            message: "Tekst do tytułu 2",
+            icon: "icon-fire",
+            theme: "red"
+
         },
         {
-            caption: "Grane",
-            message: "Stara",
-            icon: "icon-fire"
+            title: "Formularz zapytaniowy",
+            message: "Tekst do tytułu 3",
+            icon: "icon-help",
+            theme: "blue"
+        },
+        {
+            title: "Cennik",
+            message: "Tekst do tytułu 4",
+            icon: "icon-dollar",
+            theme: "teal"
+        },
+        {
+            title: "Lokalizacja",
+            message: "Tekst do tytułu 5",
+            icon: "icon-location-1",
+            theme: "deep-orange"
         }
     ]
 }
