@@ -14,25 +14,41 @@
         
         <div id="vue" class="slider">
             
-            <div class="pageInner" 
+            <div class="page-inner" 
             :class="pageTheme(pages_config.pages[selectedPageIndex])"
             :style="{left: '-' + selectedPageIndex + '00%', width: pagesCount() + '00%'}">
-                <div v-for="page in pages_config.pages" class="pageContent w3-white">
-                    <h2 class="pageTitle">{{page.title}} </h2>
-                    <div class="myhr w3-container" :class="pageTheme(page)"></div>
-                    <p class="slider__txt">{{page.message}}</p>
+                <div v-for="page in pages_config.pages" class="page w3-white">
+                    <div class="page-intro">
+                        <h2 class="page-title">{{page.title}} </h2>
+                        <div class="page-hr w3-container" :class="pageTheme(page)"></div>
+                        <p class="slider__txt">{{page.message}}</p>
+                    </div>
+                    <div class="page-content">
+                        <div class="page-components">
+                            <card-component v-for="component in page.components"
+                                v-bind:key="component.id"
+                                v-bind:component="component"
+                                v-bind:page="page"
+                                v-bind:page-theme="pageTheme">
+                            </card-component>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <div v-for="(page, index) in pages_config.pages">
-                <div  class="pageNav w3-hover-black" 
-                :title="page.title"
-                :class="[
-                pageTheme(page),
-                index == selectedPageIndex ? 'pageNav_checked' : '',
-                ]"
-                v-on:click="selectPage($event, index)">
-                    <i :class="page.icon" class="w3-xlarge"></i>
+            <div class="page-navigation" :class="{
+                    'page-navigation-top': scrollPosition <= 100,
+                    'page-navigation-side': scrollPosition > 100, 
+                }">
+                <div v-for="(page, index) in pages_config.pages">
+                    <div  class="page-button w3-hover-black" 
+                    :title="page.title"
+                    :class="[
+                    pageTheme(page),
+                    index == selectedPageIndex ? 'page-button-checked' : '',
+                    ]"
+                    v-on:click="selectPage($event, index)">
+                        <i :class="page.icon" class="w3-xlarge"></i>
+                    </div>
                 </div>
             </div>
           </div>
@@ -40,6 +56,7 @@
             
         </div>
         <script src="config.js"></script>
+        <script src="page/components.js"></script>
         <script src="page/main.js"></script>
     </body>
 </html>
