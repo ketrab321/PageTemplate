@@ -5,8 +5,10 @@ var app = new Vue({
             return this.pages_config.pages.length;
         },
         selectPage: function(event, index){
-            console.log(index)
             this.selectedPageIndex = index;
+        },
+        pageTheme: function(page){
+            return 'w3-' + page.theme;
         }
     },
     computed: {

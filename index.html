@@ -1,5 +1,7 @@
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="vue/vue.js"></script>
         <link rel="stylesheet" type="text/css" href="page/styles/carousel.css">
         <link rel="stylesheet" type="text/css" href="page/styles/style.css">
@@ -12,17 +14,24 @@
         
         <div id="vue" class="slider">
             
-            <div class="slider__inner" :style="{left: '-' + selectedPageIndex + '00%', width: pagesCount() + '00%'}">
-                <div v-for="page in pages_config.pages" class="slider__contents">
-                    
-
-                    <h2 class="slider__caption">{{page.caption}} </h2>
+            <div class="pageInner" 
+            :class="pageTheme(pages_config.pages[selectedPageIndex])"
+            :style="{left: '-' + selectedPageIndex + '00%', width: pagesCount() + '00%'}">
+                <div v-for="page in pages_config.pages" class="pageContent w3-white">
+                    <h2 class="pageTitle">{{page.title}} </h2>
+                    <div class="myhr w3-container" :class="pageTheme(page)"></div>
                     <p class="slider__txt">{{page.message}}</p>
                 </div>
             </div>
             
             <div v-for="(page, index) in pages_config.pages">
-                <div v-on:click="selectPage($event, index)" :class="{slider__nav_checked: index == selectedPageIndex}" class="slider__nav">
+                <div  class="pageNav w3-hover-black" 
+                :title="page.title"
+                :class="[
+                pageTheme(page),
+                index == selectedPageIndex ? 'pageNav_checked' : ''
+                ]"
+                v-on:click="selectPage($event, index)">
                     <i :class="page.icon" class="w3-xlarge"></i>
                 </div>
             </div>
