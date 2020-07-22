@@ -29,7 +29,7 @@
                 :title="page.title"
                 :class="[
                 pageTheme(page),
-                index == selectedPageIndex ? 'pageNav_checked' : ''
+                index == selectedPageIndex ? 'pageNav_checked' : '',
                 ]"
                 v-on:click="selectPage($event, index)">
                     <i :class="page.icon" class="w3-xlarge"></i>
