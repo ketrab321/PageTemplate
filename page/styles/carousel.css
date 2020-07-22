@@ -10,68 +10,101 @@ html, body {
 body {
   color: #444;
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 1rvw;
   line-height: 1.5;
 }
 
 .slider {
     height: 100%;
     position: relative;
-    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
     display: flex;
     flex-flow: row nowrap;
-    align-items: flex-end;
     justify-content: center;
 }
-.pageNav {
-    margin: 2rem 2rem;
-    min-width: 2em;
-    min-height: 2em;
-    padding: 0.75em 0.5em;
+.page-navigation {
+    right: auto;
+    bottom: auto;
+}
+.page-navigation-top {
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.page-navigation-side {
+    position: fixed;
+    transition: right 3s ease-in-out;
+    right: 0.75vw;
+    bottom: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-button {
+    margin: 0.5vw 2vw;
+    min-width: 2vh;
+    min-height: 2vh;
+    padding: 1em 0.7em;
     border-radius: 50%;
-    display: inline-block;
-    outline-offset: -6px;
     cursor: pointer;
     align-items: center;
 }
-.pageNav_checked {
+.page-button-checked {
     animation: check 0.4s linear forwards;
     border: 2px solid black;
 }
 
-.pageInner {
+.page-inner {
+    min-height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -2;
-    height: 100%;
     transition: left 0.4s;
     display: flex;
-    flex-flow: row nowrap;
 }
-.pageContent {
+.page-intro {
+    height: 60vh;
+    margin: 1vh;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.page-content { 
+    margin: 1vw;
+    margin-right: 4.5em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.page {
     height: 100%;
-    margin: 1rem;
+    max-height: 100%;
+    margin: 1vw;
     text-align: center;
     display: flex;
     flex: 1;
-    flex-flow: column nowrap;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
-    background-color:rgb(255, 250, 239);
 }
 .slider__image {
-    font-size: 2.7rem;
+    font-size: 2.7rvw;
     color: #2196F3;
 }
-.pageTitle {
+.page-title {
     font-weight: 500;
-    margin: 2rem 0 1rem;
+    margin: 2rvw 0 1rvw;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
 }
 .slider__txt {
-    margin-bottom: 3rem;
+    margin-bottom: 3rvw;
     max-width: 300px;
 }
 
