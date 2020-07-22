@@ -6,6 +6,8 @@ var app = new Vue({
         },
         selectPage: function(event, index){
             this.selectedPageIndex = index;
+            this.slider.scrollTop = 0;
+            this.scrollPosition = 0;
         },
         pageTheme: function(page){
             return 'w3-' + page.theme;
