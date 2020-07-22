@@ -2,16 +2,19 @@ const config = {
     pages: [
         {
             caption: "Co",
-            message: "Twoja"
+            message: "Twoja",
+            icon: "icon-home"
             
         },
         {
             caption: "Jest?",
-            message: "XDDD"
+            message: "XDD",
+            icon: "icon-help"
         },
         {
             caption: "Grane",
-            message: "Stara"
+            message: "Stara",
+            icon: "icon-fire"
         }
     ]
 }
