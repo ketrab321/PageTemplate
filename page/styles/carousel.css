@@ -28,7 +28,7 @@ body {
     bottom: auto;
 }
 .page-navigation-top {
-    margin-top: 6vh;
+    margin-top: 40vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -53,7 +53,7 @@ body {
 }
 .page-button-checked {
     animation: check 0.4s linear forwards;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
 .page-inner {
@@ -61,18 +61,20 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -2;
+    z-index: -3;
     transition: left 0.4s;
     display: flex;
 }
 .page-intro {
-    height: 60vh;
-    margin: 1vh;
+    height: 80vh;
+    width: 100%;
+    position: relative;
     display: flex;
     flex-flow: column;
     text-align: center;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .page-content { 
     margin: 1vw;
@@ -85,6 +87,8 @@ body {
 .page {
     height: 100%;
     max-height: 100%;
+    width: inherit;
+    z-index: -2;
     margin: 1vw;
     text-align: center;
     display: flex;
@@ -93,9 +97,21 @@ body {
     align-items: center;
     justify-content: center;
 }
-.slider__image {
-    font-size: 2.7rvw;
-    color: #2196F3;
+.page-photo {
+    position: absolute;
+    z-index: -1;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-photo img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 .page-title {
     font-weight: 500;
@@ -110,22 +126,22 @@ body {
 
 @-webkit-keyframes check {
     50% {
-        outline-color: #333;
-        box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+        outline-color: #fff;
+        box-shadow: 0 0 0 12px #fff, 0 0 0 36px rgba(51, 51, 51, 0.6);
     }
     100% {
-        outline-color: #333;
-        box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+        outline-color: #fff;
+        box-shadow: 0 0 0 0 #fff, 0 0 0 0 rgba(51, 51, 51, 0);
     }
 }
 
 @keyframes check {
     50% {
-        outline-color: #333;
-        box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+        outline-color: #fff;
+        box-shadow: 0 0 0 12px #fff, 0 0 0 36px rgba(51, 51, 51, 0.6);
     }
     100% {
-        outline-color: #333;
-        box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+        outline-color: #fff;
+        box-shadow: 0 0 0 0 #fff, 0 0 0 0 rgba(51, 51, 51, 0);
     }
 }

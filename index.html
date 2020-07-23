@@ -18,12 +18,15 @@
             :class="pageTheme(pages_config.pages[selectedPageIndex])"
             :style="{left: '-' + selectedPageIndex + '00%', width: pagesCount() + '00%'}">
                 <div v-for="page in pages_config.pages" class="page w3-white">
-                    <div class="page-intro">
+                    <div class="page-intro w3-text-white">
+                        <div class="page-photo">
+                            <img :src="page.photo"/>
+                        </div>
                         <h2 class="page-title">{{page.title}} </h2>
                         <div class="page-hr w3-container" :class="pageTheme(page)"></div>
                         <p class="slider__txt">{{page.message}}</p>
                     </div>
-                    <div class="page-content">
+                    <div class="page-content w3-white">
                         <div class="page-components">
                             <card-component v-for="component in page.components"
                                 v-bind:key="component.id"
