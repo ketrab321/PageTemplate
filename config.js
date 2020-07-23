@@ -10,6 +10,7 @@ const config = {
                 {
                     id: 0,
                     title: "Próba ala test",
+                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
                     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
                     Proin tristique orci non nisi blandit, ut pretium orci auctor. \
                     Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
