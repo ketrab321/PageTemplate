@@ -27,30 +27,39 @@
                         <p class="slider__txt">{{page.message}}</p>
                     </div>
                     <div class="page-content w3-white">
-                        <div class="page-components">
-                            <card-component v-for="component in page.components"
-                                v-bind:key="component.id"
-                                v-bind:component="component"
-                                v-bind:page="page"
-                                v-bind:page-theme="pageTheme">
-                            </card-component>
-                        </div>
+                        <card-component v-for="component in page.components"
+                            v-bind:key="component.id"
+                            v-bind:component="component"
+                            v-bind:page="page"
+                            v-bind:page-theme="pageTheme">
+                        </card-component>
                     </div>
                 </div>
             </div>
             <div class="page-navigation" :class="{
                     'page-navigation-top': scrollPosition <= 100,
-                    'page-navigation-side': scrollPosition > 100, 
+                    'page-navigation-side': scrollPosition > 100,
+                    'w3-card': scrollPosition > 100
                 }">
                 <div v-for="(page, index) in pages_config.pages">
-                    <div  class="page-button w3-hover-black" 
-                    :title="page.title"
-                    :class="[
-                    pageTheme(page),
-                    index == selectedPageIndex ? 'page-button-checked' : '',
-                    ]"
-                    v-on:click="selectPage($event, index)">
-                        <i :class="page.icon" class="w3-xlarge"></i>
+                    <div class="page-nav-button"
+                        :class="{
+                            'w3-gray': index == selectedPageIndex && scrollPosition > 100
+                        }"
+                        v-on:click="selectPage($event, index)"
+                        >
+                        <div  class="page-nav-icon w3-hover-black" 
+                        :title="page.title"
+                        :class="[
+                        pageTheme(page),
+                        index == selectedPageIndex ? 'page-nav-icon-checked' : '',
+                        ]"
+                        >
+                            <i :class="page.icon" class="w3-xlarge"></i>
+                        </div>
+                        <div v-if="scrollPosition > 100" class="page-nav-title">
+                            {{page.title}}
+                        </div>
                     </div>
                 </div>
             </div>
