@@ -20,6 +20,7 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     display: flex;
+    z-index: 0;
     flex-flow: row nowrap;
     justify-content: center;
 }
@@ -88,8 +89,8 @@ body {
     height: 100%;
     max-height: 100%;
     width: inherit;
-    z-index: -2;
     margin: 1vw;
+    z-index: 1;
     text-align: center;
     display: flex;
     flex: 1;

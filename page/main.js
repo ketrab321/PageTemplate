@@ -14,7 +14,6 @@ var app = new Vue({
         },
         updateScroll() {
             this.scrollPosition = this.slider.scrollTop;
-            console.log(this.scrollPosition);
         }
     },
     mounted: function() {
