@@ -13,9 +13,6 @@ const config = {
                     main: {
                         title: "Próba ala test",
                         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                    },
-                    side: {
-                        photo: "page/images/podatki.jpg"
                     }
                     
                 },

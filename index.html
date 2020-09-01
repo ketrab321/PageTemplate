@@ -37,31 +37,28 @@
                 </div>
             </div>
             <div class="page-navigation" :class="{
-                    'page-navigation-top': scrollPosition <= 100,
-                    'page-navigation-side': scrollPosition > 100,
-                    'w3-card': scrollPosition > 100
+                    'page-navigation-top': scrollPosition <= 300,
+                    'page-navigation-side': scrollPosition > 300,
                 }">
-                <div v-for="(page, index) in pages_config.pages">
-                    <div class="page-nav-button"
-                        :class="{
-                            'w3-gray': index == selectedPageIndex && scrollPosition > 100
-                        }"
-                        v-on:click="selectPage($event, index)"
-                        >
-                        <div  class="page-nav-icon w3-hover-black" 
-                        :title="page.title"
-                        :class="[
-                        pageTheme(page),
-                        index == selectedPageIndex ? 'page-nav-icon-checked' : '',
-                        ]"
-                        >
-                            <i :class="page.icon" class="w3-xlarge"></i>
-                        </div>
-                        <div v-if="scrollPosition > 100" class="page-nav-title">
-                            {{page.title}}
-                        </div>
+                
+                <div v-for="(page, index) in pages_config.pages" 
+                    class="page-nav-button"
+                    v-on:click="selectPage($event, index)"
+                    >
+                    <div  class="page-nav-icon" 
+                    :title="page.title"
+                    :class="[
+                    pageTheme(page),
+                    index == selectedPageIndex ? 'page-nav-icon-checked w3-black' : '',
+                    ]"
+                    >
+                        <i :class="page.icon"></i>
+                    </div>
+                    <div v-if="scrollPosition > 300" class="page-nav-title">
+                        {{page.title}}
                     </div>
                 </div>
+                
             </div>
           </div>
 
