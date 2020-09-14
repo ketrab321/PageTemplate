@@ -9,87 +9,25 @@ const config = {
             components: [
                 {
                     id: 0,
-                    title: "Próba ala test",
                     link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                    Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                    Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                    dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                    Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                    consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                    odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                    quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                     sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                     tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                     dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                     Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                     vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                     Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                     Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                     dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                     Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                     consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                     odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                     quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                      sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                      tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                      dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                      Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                      vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                      Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                      Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                      dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                      Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                      consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                      odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                      quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                       sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                       tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                       dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                       Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                       vitae maximus."
+                    main: {
+                        title: "Próba ala test",
+                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    }
+                    
                 },
                 {
-                    id: 1,
-                    title: "Próba ala test",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                    Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                    Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                    dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                    Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                    consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                    odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                    quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                     sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                     tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                     dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                     Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                     vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                     Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                     Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                     dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                     Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                     consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                     odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                     quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                      sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                      tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                      dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                      Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                      vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                      Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                      Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                      dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                      Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                      consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                      odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                      quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                       sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                       tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                       dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                       Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                       vitae maximus."
-                }
+                    id: 0,
+                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
+                    main: {
+                        title: "Próba ala test",
+                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    },
+                    side: {
+                        photo: "page/images/podatki.jpg"
+                    }
+                    
+                },
             ]
         },
         {
@@ -101,86 +39,28 @@ const config = {
             components: [
                 {
                     id: 0,
-                    title: "Próba ala test",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                    Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                    Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                    dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                    Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                    consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                    odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                    quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                     sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                     tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                     dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                     Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                     vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                     Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                     Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                     dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                     Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                     consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                     odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                     quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                      sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                      tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                      dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                      Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                      vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                      Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                      Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                      dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                      Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                      consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                      odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                      quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                       sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                       tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                       dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                       Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                       vitae maximus."
+                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
+                    main: {
+                        title: "Próba ala test",
+                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    },
+                    side: {
+                        photo: "page/images/podatki.jpg"
+                    }
+                    
                 },
                 {
-                    id: 1,
-                    title: "Próba ala test",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                    Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                    Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                    dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                    Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                    consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                    odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                    quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                     sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                     tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                     dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                     Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                     vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                     Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                     Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                     dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                     Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                     consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                     odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                     quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                      sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                      tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                      dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                      Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                      vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                      Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                      Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                      dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                      Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                      consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                      odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                      quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                       sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                       tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                       dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                       Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                       vitae maximus."
-                }
+                    id: 0,
+                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
+                    main: {
+                        title: "Próba ala test",
+                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    },
+                    side: {
+                        photo: "page/images/podatki.jpg"
+                    }
+                    
+                },
             ]
         },
         {
@@ -192,86 +72,28 @@ const config = {
             components: [
                 {
                     id: 0,
-                    title: "Próba ala test",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                    Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                    Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                    dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                    Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                    consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                    odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                    quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                     sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                     tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                     dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                     Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                     vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                     Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                     Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                     dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                     Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                     consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                     odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                     quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                      sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                      tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                      dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                      Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                      vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                      Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                      Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                      dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                      Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                      consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                      odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                      quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                       sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                       tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                       dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                       Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                       vitae maximus."
+                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
+                    main: {
+                        title: "Próba ala test",
+                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    },
+                    side: {
+                        photo: "page/images/podatki.jpg"
+                    }
+                    
                 },
                 {
-                    id: 1,
-                    title: "Próba ala test",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                    Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                    Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                    dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                    Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                    consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                    odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                    quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                     sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                     tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                     dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                     Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                     vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                     Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                     Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                     dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                     Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                     consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                     odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                     quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                      sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                      tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                      dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                      Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                      vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                      Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                      Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                      dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                      Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                      consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                      odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                      quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                       sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                       tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                       dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                       Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                       vitae maximus."
-                }
+                    id: 0,
+                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
+                    main: {
+                        title: "Próba ala test",
+                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    },
+                    side: {
+                        photo: "page/images/podatki.jpg"
+                    }
+                    
+                },
             ]
         },
         {
@@ -283,86 +105,28 @@ const config = {
             components: [
                 {
                     id: 0,
-                    title: "Próba ala test",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                    Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                    Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                    dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                    Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                    consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                    odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                    quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                     sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                     tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                     dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                     Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                     vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                     Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                     Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                     dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                     Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                     consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                     odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                     quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                      sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                      tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                      dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                      Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                      vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                      Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                      Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                      dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                      Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                      consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                      odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                      quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                       sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                       tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                       dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                       Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                       vitae maximus."
+                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
+                    main: {
+                        title: "Próba ala test",
+                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    },
+                    side: {
+                        photo: "page/images/podatki.jpg"
+                    }
+                    
                 },
                 {
-                    id: 1,
-                    title: "Próba ala test",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                    Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                    Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                    dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                    Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                    consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                    odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                    quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                     sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                     tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                     dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                     Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                     vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                     Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                     Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                     dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                     Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                     consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                     odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                     quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                      sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                      tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                      dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                      Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                      vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                      Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                      Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                      dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                      Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                      consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                      odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                      quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                       sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                       tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                       dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                       Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                       vitae maximus."
-                }
+                    id: 0,
+                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
+                    main: {
+                        title: "Próba ala test",
+                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    },
+                    side: {
+                        photo: "page/images/podatki.jpg"
+                    }
+                    
+                },
             ]
         },
         {
@@ -374,86 +138,28 @@ const config = {
             components: [
                 {
                     id: 0,
-                    title: "Próba ala test",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                    Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                    Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                    dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                    Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                    consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                    odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                    quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                     sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                     tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                     dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                     Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                     vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                     Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                     Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                     dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                     Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                     consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                     odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                     quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                      sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                      tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                      dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                      Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                      vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                      Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                      Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                      dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                      Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                      consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                      odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                      quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                       sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                       tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                       dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                       Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                       vitae maximus."
+                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
+                    main: {
+                        title: "Próba ala test",
+                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    },
+                    side: {
+                        photo: "page/images/podatki.jpg"
+                    }
+                    
                 },
                 {
-                    id: 1,
-                    title: "Próba ala test",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                    Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                    Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                    dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                    Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                    consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                    odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                    quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                     sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                     tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                     dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                     Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                     vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                     Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                     Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                     dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                     Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                     consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                     odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                     quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                      sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                      tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                      dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                      Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                      vitae maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-                      Proin tristique orci non nisi blandit, ut pretium orci auctor. \
-                      Mauris cursus non libero non porta. Sed id tortor faucibus, accumsan \
-                      dui ut, suscipit elit. Mauris vestibulum diam sed felis mollis imperdiet. \
-                      Sed bibendum commodo diam a congue. Curabitur sodales ultricies ante, ac \
-                      consectetur felis venenatis eu. Integer faucibus, arcu non dapibus hendrerit, \
-                      odio lorem accumsan neque, vitae egestas ex ante et leo. In porttitor, dolor \
-                      quis efficitur ultricies, sem justo condimentum mi, at dignissim sapien tortor\
-                       sed quam. Ut laoreet ac leo ut sagittis. Nullam dapibus nunc non faucibus \
-                       tristique. Phasellus mattis placerat urna a porta. In hac habitasse platea \
-                       dictumst. Donec nibh lectus, fermentum quis ultrices et, dictum iaculis elit. \
-                       Etiam suscipit imperdiet mi eget eleifend. Integer accumsan fringilla metus \
-                       vitae maximus."
-                }
+                    id: 0,
+                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
+                    main: {
+                        title: "Próba ala test",
+                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    },
+                    side: {
+                        photo: "page/images/podatki.jpg"
+                    }
+                    
+                },
             ]
         }
     ]

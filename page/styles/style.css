@@ -9,21 +9,69 @@
 }
 
 .card {
+    position: relative;
     padding: 1em;
-    margin: 1em;
+    margin: 1em 0;
     font-size: 1em;
     z-index: 1;
-
+    width: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 .card-title {
     font-size: 1.5em;
     font-weight: 400;
     margin: 0 0 1rem;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-a { text-decoration: none; }
+.card-photo {
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 20vw;
+    height: 21vw;
+    display: flex;
+
+}
+
+.card-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width:20%;
+    padding: 1.5vw;
+}
+.card-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%
+}
+
+
+a { 
+    text-decoration: none; 
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 900px) {
+    .card-photo {
+        visibility: collapse;
+        height: 0;
+    }
+    .card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-side {
+        padding: 0;
+    }
+    
+}

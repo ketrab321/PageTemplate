@@ -12,9 +12,13 @@ var app = new Vue({
         pageTheme: function(page){
             return 'w3-' + page.theme;
         },
+        isPageSelected: function(index){
+            return index == this.selectedPageIndex;
+        },
         updateScroll() {
             this.scrollPosition = this.slider.scrollTop;
-        }
+        },
+
     },
     mounted: function() {
         this.slider = document.getElementById("vue");
