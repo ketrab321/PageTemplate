@@ -20,7 +20,7 @@ Vue.component('card-component', {
                         <div class="card-hr" :class="pageTheme"></div>
                     </div>
 
-                    <card-content v-bind:content="component.main.content" v-bind:pageTextColor="pageTextColor"/>
+                    <card-content v-bind:content="component.main.content" v-bind:pageTextColor="pageTextColor" v-bind:page="page"/>
                     
                 </div>
 
@@ -31,15 +31,21 @@ Vue.component('card-component', {
 Vue.component("card-content",{
     props: {
         content: Array,
-        pageTextColor: String
+        pageTextColor: String,
+        page: Object,
     },
     template: `
     <div class="card-content">
         <a :href="paragraph.link" :class="pageTextColor" v-for="paragraph in content">
-            <div class="card w3-round-large w3-justify"
+            <div class="card-content-item w3-round-large w3-justify"
             :class="{'w3-hover-black': paragraph.link != undefined,
                     'w3-text-black': paragraph.link == undefined}">
-                    {{paragraph.text}}
+                <p>{{paragraph.text}}</p>
+                <div class="paragraph-list">
+                    <div class="paragraph-list-item" v-for="listItem in paragraph.list">
+                        <i :class="page.icon"></i> {{listItem.text}}
+                    </div>
+                </div>
             </div>
         </a>
     </div>

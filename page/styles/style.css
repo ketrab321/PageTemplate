@@ -54,6 +54,19 @@
     width: 80%
 }
 
+.paragraph-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0 0.5em;
+}
 
 a { 
     text-decoration: none; 

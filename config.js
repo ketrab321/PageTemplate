@@ -11,10 +11,20 @@ const config = {
                     id: 0,
                     main: {
                         title: "Próba ala test",
-                        content: [{
-                            link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
-                            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                        }]
+                        content: [
+                            {
+                                link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
+                                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                            },
+                            {
+                                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                                list: [
+                                    {
+                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     side: {
                         photo: "page/images/podatki.jpg"
