@@ -9,25 +9,18 @@ const config = {
             components: [
                 {
                     id: 0,
-                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
                     main: {
                         title: "Próba ala test",
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                    }
-                    
-                },
-                {
-                    id: 0,
-                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
-                    main: {
-                        title: "Próba ala test",
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                        content: [{
+                            link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
+                            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                        }]
                     },
                     side: {
                         photo: "page/images/podatki.jpg"
                     }
                     
-                },
+                }
             ]
         },
         {
@@ -37,30 +30,7 @@ const config = {
             icon: "icon-fire",
             theme: "red",
             components: [
-                {
-                    id: 0,
-                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
-                    main: {
-                        title: "Próba ala test",
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                    },
-                    side: {
-                        photo: "page/images/podatki.jpg"
-                    }
-                    
-                },
-                {
-                    id: 0,
-                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
-                    main: {
-                        title: "Próba ala test",
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                    },
-                    side: {
-                        photo: "page/images/podatki.jpg"
-                    }
-                    
-                },
+                
             ]
         },
         {
@@ -70,30 +40,7 @@ const config = {
             icon: "icon-help",
             theme: "blue",
             components: [
-                {
-                    id: 0,
-                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
-                    main: {
-                        title: "Próba ala test",
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                    },
-                    side: {
-                        photo: "page/images/podatki.jpg"
-                    }
-                    
-                },
-                {
-                    id: 0,
-                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
-                    main: {
-                        title: "Próba ala test",
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                    },
-                    side: {
-                        photo: "page/images/podatki.jpg"
-                    }
-                    
-                },
+                
             ]
         },
         {
@@ -103,30 +50,7 @@ const config = {
             icon: "icon-dollar",
             theme: "teal",
             components: [
-                {
-                    id: 0,
-                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
-                    main: {
-                        title: "Próba ala test",
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                    },
-                    side: {
-                        photo: "page/images/podatki.jpg"
-                    }
-                    
-                },
-                {
-                    id: 0,
-                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
-                    main: {
-                        title: "Próba ala test",
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                    },
-                    side: {
-                        photo: "page/images/podatki.jpg"
-                    }
-                    
-                },
+                
             ]
         },
         {
@@ -136,30 +60,7 @@ const config = {
             icon: "icon-location-1",
             theme: "deep-orange",
             components: [
-                {
-                    id: 0,
-                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
-                    main: {
-                        title: "Próba ala test",
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                    },
-                    side: {
-                        photo: "page/images/podatki.jpg"
-                    }
-                    
-                },
-                {
-                    id: 0,
-                    link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
-                    main: {
-                        title: "Próba ala test",
-                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                    },
-                    side: {
-                        photo: "page/images/podatki.jpg"
-                    }
-                    
-                },
+                
             ]
         }
     ]

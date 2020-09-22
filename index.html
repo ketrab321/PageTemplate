@@ -31,7 +31,8 @@
                             v-bind:key="component.id"
                             v-bind:component="component"
                             v-bind:page="page"
-                            v-bind:page-theme="pageTheme">
+                            v-bind:page-theme="pageTheme(page)"
+                            v-bind:page-text-color="pageTextColor(page)">
                         </card-component>
                     </div>
                 </div>
