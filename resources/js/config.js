@@ -2,7 +2,7 @@ const config = {
     pages: [
         {
             title: "Strona Główna",
-            photo: "page/images/page1.jpg",
+            photo: "images/page1.jpg",
             message: "Kancelaria doradztwa podatkowego \"Legis\"",
             icon: "icon-home",
             theme: "green",
@@ -57,7 +57,7 @@ const config = {
                         ]
                     },
                     side: {
-                        photo: "page/images/podatki.jpg"
+                        photo: "images/podatki.jpg"
                     }
                     
                 }
@@ -65,7 +65,7 @@ const config = {
         },
         {
             title: "Aktualności",
-            photo: "page/images/page2.jpg",
+            photo: "images/page2.jpg",
             message: "Kancelaria doradztwa podatkowego \"Legis\"",
             icon: "icon-fire",
             theme: "red",
@@ -120,7 +120,7 @@ const config = {
                         ]
                     },
                     side: {
-                        photo: "page/images/podatki.jpg"
+                        photo: "images/podatki.jpg"
                     }
                     
                 }
@@ -128,7 +128,7 @@ const config = {
         },
         {
             title: "Formularz zapytaniowy",
-            photo: "page/images/page3.jpg",
+            photo: "images/page3.jpg",
             message: "Kancelaria doradztwa podatkowego \"Legis\"",
             icon: "icon-help",
             theme: "blue",
@@ -138,7 +138,7 @@ const config = {
         },
         {
             title: "Cennik",
-            photo: "page/images/page4.jpg",
+            photo: "images/page4.jpg",
             message: "Kancelaria doradztwa podatkowego \"Legis\"",
             icon: "icon-dollar",
             theme: "teal",
@@ -148,7 +148,7 @@ const config = {
         },
         {
             title: "Lokalizacja",
-            photo: "page/images/page5.jpg",
+            photo: "images/page5.jpg",
             message: "Kancelaria doradztwa podatkowego \"Legis\"",
             icon: "icon-location-1",
             theme: "deep-orange",
