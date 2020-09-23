@@ -7,12 +7,12 @@ Vue.component('card-component', {
     },
     template: `
         <div class="card w3-card w3-round-large w3-shadow w3-justify">
-                <div  class="card-side" v-if="component.side">
-                    <div>
+                <div  class="card-side" v-if="component.side && component.order!='reverse'">
+                    
                         <div class="card-photo" v-if="component.side.photo">
                             <img :src="component.side.photo"/>
                         </div>
-                    </div>
+                    
                 </div>
                 <div class="card-main" v-if="component.main">
                     <div class="card-title w3-center">
@@ -23,7 +23,13 @@ Vue.component('card-component', {
                     <card-content v-bind:content="component.main.content" v-bind:pageTextColor="pageTextColor" v-bind:page="page"/>
                     
                 </div>
-
+                <div  class="card-side-reverse" v-if="component.side && component.order=='reverse'">
+                    
+                        <div class="card-photo" v-if="component.side.photo">
+                            <img :src="component.side.photo"/>
+                        </div>
+                    
+                </div>
         </div>
     `
 });
@@ -43,7 +49,12 @@ Vue.component("card-content",{
                 <p>{{paragraph.text}}</p>
                 <div class="paragraph-list">
                     <div class="paragraph-list-item" v-for="listItem in paragraph.list">
-                        <i :class="page.icon"></i> {{listItem.text}}
+                        <i class="icon-circle w3-tiny" :class="pageTextColor"></i> {{listItem.text}}
+                        <div class="paragraph-list" v-if="listItem.sublist != undefined">
+                            <div class="paragraph-sublist-item" v-for="sublistItem in listItem.sublist">
+                                <i class="icon-circle-empty w3-tiny" :class="pageTextColor"></i> {{sublistItem.text}}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

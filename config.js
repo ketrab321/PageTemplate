@@ -9,6 +9,7 @@ const config = {
             components: [
                 {
                     id: 0,
+                    order: "reverse",
                     main: {
                         title: "Próba ala test",
                         content: [
@@ -20,7 +21,36 @@ const config = {
                                 text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
                                 list: [
                                     {
-                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                                        sublist: [
+                                            {
+                                                text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                                list: [
+                                    {
+                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                                        sublist: [
+                                            {
+                                                text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                                        sublist: [
+                                            {
+                                                text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                                            },
+                                            {
+                                                text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -40,7 +70,60 @@ const config = {
             icon: "icon-fire",
             theme: "red",
             components: [
-                
+                {
+                    id: 0,
+                    order: "default",
+                    main: {
+                        title: "Próba ala test",
+                        content: [
+                            {
+                                link: "https://giphy.com/gifs/dancing-dance-excited-IB9foBA4PVkKA",
+                                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                            },
+                            {
+                                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                                list: [
+                                    {
+                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                                        sublist: [
+                                            {
+                                                text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                                list: [
+                                    {
+                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                                        sublist: [
+                                            {
+                                                text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                                        sublist: [
+                                            {
+                                                text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                                            },
+                                            {
+                                                text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    side: {
+                        photo: "page/images/podatki.jpg"
+                    }
+                    
+                }
             ]
         },
         {
