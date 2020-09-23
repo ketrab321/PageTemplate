@@ -12,6 +12,9 @@ var app = new Vue({
         pageTheme: function(page){
             return 'w3-' + page.theme;
         },
+        pageTextColor: function(page){
+            return 'w3-text-' + page.theme;
+        },
         isPageSelected: function(index){
             return index == this.selectedPageIndex;
         },

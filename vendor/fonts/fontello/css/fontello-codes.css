@@ -5,4 +5,6 @@
 .icon-phone-1:before { content: '\e806'; } /* '' */
 .icon-users:before { content: '\e807'; } /* '' */
 .icon-location-1:before { content: '\e808'; } /* '' */
+.icon-circle-empty:before { content: '\f10c'; } /* '' */
+.icon-circle:before { content: '\f111'; } /* '' */
 .icon-dollar:before { content: '\f155'; } /* '' */
